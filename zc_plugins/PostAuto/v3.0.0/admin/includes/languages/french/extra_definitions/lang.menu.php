@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @copyright Copyright 2003-2026 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id: piloujp 2026 Oct 14 Modified in v3.3.0-dev $
+*/
+
+$define = [
+    'ADMIN_PLUGIN_MANAGER_NAME_FOR_POSTAUTO' => 'Code postal automatique',
+    'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_POSTAUTO' => 'Ce plugin remplit automatiquement les champs de formulaire département, ville et la rue (si les données sont disponibles), lorsque le code postal est fourni.' .
+    '<div class="buttons my-2">' .
+    '<a class="btn btn-primary btn-sm" href="' . DIR_WS_CATALOG . 'zc_plugins/PostAuto/' . basename(dirname(__DIR__, 5)) . '/readme.html " target="_blank"><i class="fa fa-book"></i> Lisez-moi</a> ' .
+    '<a class="btn btn-info btn-sm" href="https://github.com/dbltoe/Postcode_Auto_Fill" target="_blank"><i class="fa-solid fa-code-branch"></i> GitHub</a> ' .
+    '<a class="btn btn-success btn-sm" href="https://www.zen-cart.com/threads/205577" target="_blank"><i class="fa fa-comments"></i> Forum</a>' .
+    '</div>',
+];
+
+return $define;
