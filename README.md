@@ -1,5 +1,7 @@
 # Postcode Auto Fill for Zen Cart
 
+> **This repository is archived.** Postcode Auto Fill is maintained by its original author, piloujp, at **[piloujp/Postcode_auto](https://github.com/piloujp/Postcode_auto)**. Get current versions, updates and support there.
+
 Type a postal/zip code and the state, city and (where the data has it) street address fill themselves in. If a code covers several cities or streets, hovering the field shows the choices, and clicking one fills it in.
 
 It works on the Create Account and Login forms, the address book, the checkout address pages, and One-Page Checkout's checkout page (billing and shipping, guests and account holders alike). No template file is changed.
